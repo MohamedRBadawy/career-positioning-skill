@@ -109,6 +109,19 @@ that need it.
 
 ---
 
+## Build your own
+
+The whole skill is four Markdown files, so changing it means editing text.
+
+- **A different field.** Rewrite the queries in `grooya/references/market-search-templates.md` for your industry or country. The workflow does not change.
+- **Your own scoring.** The tiers, the three scoring axes and the disqualifiers are in `grooya/references/gap-analysis-rubric.md`. Change the weights there, and keep it written down so rankings stay comparable between sessions.
+- **Another kind of plan.** Step 5 in `grooya/SKILL.md` builds the 90-day plan. Change the block length or the "done when" rule there, for example for a 6-month career change.
+- **Your own tools.** The Configure table in `grooya/SKILL.md` names where the skill reads and writes. Point it at files, a notes app or a database.
+
+Keep the evidence rules if you can. They are what stop the plan from turning into generic advice.
+
+---
+
 ## Structure
 
 ```
@@ -181,3 +194,9 @@ content, or a plan block needs something built, the skill can hand it to a
 writing or build agent with a brief complete enough to act on without
 questions. It checks for an existing open handoff first and caps rework at
 two passes before escalating to the user.
+
+---
+
+## Licence
+
+MIT. You may use, change and share it, as long as the licence notice stays with it. See `LICENSE`.
